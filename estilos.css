@@ -145,14 +145,14 @@ h2{
 }
 
 footer{
-    background-color: black;
+    background-color: rgb(88, 88, 88);
     color: antiquewhite;
     text-align: center;
-    font-size: 18px;
     padding: 10px;
 }
 footer p{
-    margin-bottom: 15px;
+    margin-top: 10px;
+    font-size: 2px;
 }
 
 footer i {
@@ -161,10 +161,16 @@ footer i {
 }
 
 footer a{
-    color: rgb(224, 131, 23);
+    color: rgb(255, 255, 255);
 }
 footer a:hover{
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+footer .fa-facebook:hover{
+    color: rgb(14, 95, 187);
+}
+footer .fa-instagram:hover{
+    color: rgb(197, 126, 19);
 }
 .what {
     height: 40px;
@@ -180,7 +186,8 @@ footer a:hover{
     border-radius: 50%;
 }
 .what:hover{
-    background-color: gray;
+    color: black;
+    background-color: rgb(255, 255, 255);
 }
 
 
